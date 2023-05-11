@@ -1,10 +1,13 @@
-/* eslint-disable react/prop-types */
-
 const Post = ({ post }) => {
-    return <div>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam minima quos porro dolorum impedit vero hic provident ducimus alias quasi eveniet repudiandae aperiam debitis quae, consequuntur unde iure id quia.
-    </div>;
-    
+  return (
+    <div>
+      {post.author}
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+        libero.
+      </p>
+    </div>
+  );
 };
 
 export default Post;
