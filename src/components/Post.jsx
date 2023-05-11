@@ -4,8 +4,7 @@ const Post = ({ post }) => {
     <div>
       {post.author}
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-        libero.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       </p>
     </div>
   );
