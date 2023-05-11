@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
       <div>
-        <h2>This is Home Page</h2>
+        <h2>This is Home </h2>
          <Tags/>
         {data.map( dt => <Post post={dt} key={dt.id} />)}
       </div>
