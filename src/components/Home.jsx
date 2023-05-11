@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Post from "./Post";
+import Tags from "./Tags";
 
 const Home = () => {
     const [data, setData] = useState([])
@@ -12,6 +13,7 @@ const Home = () => {
     return (
       <div>
         <h2>This is Home Page</h2>
+         <Tags/>
         {data.map( dt => <Post post={dt} key={dt.id} />)}
       </div>
     );
